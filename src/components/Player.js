@@ -7,8 +7,8 @@ function Player({ spotifyInstance }) {
   return (
     <div className="player">
       <div className="player__body">
-        <SpotifyBody />
         <SpotifySideBar />
+        <SpotifyBody />
       </div>
       <SpotifyFooter />
     </div>
