@@ -4,4 +4,55 @@
   color: white;
   padding: 30px;
   background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
+  overflow-y: overlay;
+}
+.spotifyBody::-webkit-scrollbar {
+  display: none;
+}
+
+.spotifyBody__info {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.spotifyBody__info > img {
+  height: 20vw;
+  margin: 0 20px;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+.spotifyBody__infoText {
+  flex: 1;
+}
+
+.spotifyBody__infoText > h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.spotifyBody__infoText > p {
+  font-size: 14px;
+}
+
+.spotifyBody__icons {
+  display: flex;
+  align-items: center;
+}
+
+.spotifyBody__icons > .MuiSvgIcon-root {
+  margin-right: 20px;
+}
+
+.spotifyBody__shuffle {
+  font-size: 80px !important;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.spotifyBody__shuffle:hover {
+  transition: 100ms transform ease-in;
+  transform: scale(1.08);
+}
+.spotifyBody__songs {
+  margin: 20px -30px;
 }

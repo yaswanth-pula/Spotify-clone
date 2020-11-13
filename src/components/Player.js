@@ -8,7 +8,7 @@ function Player({ spotifyInstance }) {
     <div className="player">
       <div className="player__body">
         <SpotifySideBar />
-        <SpotifyBody />
+        <SpotifyBody instance={spotifyInstance} />
       </div>
       <SpotifyFooter />
     </div>
