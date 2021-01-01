@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import "./app.css";
+import "./App.css";
 import Login from "./Login";
 import Player from "./Player";
 import { getTokenFromUrl } from "../spotify/spotify_config";
